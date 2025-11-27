@@ -1,0 +1,12 @@
+---
+title: "Quarto website practice"
+author: "Megan James"
+format: html
+---
+
+## Introduction
+```{r}
+data(mtcars)
+plot(mtcars$hp, mtcars$mpg, col = "blue")
+```
+
